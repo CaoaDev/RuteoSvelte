@@ -9,6 +9,9 @@
 </script>
 
 <nav>
+  {#if $user}
+    <span>Usiario: {$user.name}</span>
+  {/if}
   <Link to='/'>HOME</Link>
   <Link to='/about'>ABOUT</Link>
   <Link to='/perfil'>PERFIL</Link>

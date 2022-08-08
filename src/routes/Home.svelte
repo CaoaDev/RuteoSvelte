@@ -8,7 +8,6 @@
       navigate('login')
     }
   })
-
 </script>
 
 <div>
